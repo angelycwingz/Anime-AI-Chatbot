@@ -13,7 +13,7 @@ import os
 load_dotenv()
 
 os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY", "ENTER_YOUR_GROQ_API_KEY")
-LLM_MODEL = "gemma2-9b-it"
+LLM_MODEL = "llama-3.3-70b-versatile"
 
 # Page config
 st.set_page_config(page_title="Anime AI Chatbot with Groq", page_icon="㊙️")
